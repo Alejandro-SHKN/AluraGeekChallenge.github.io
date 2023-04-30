@@ -1,0 +1,105 @@
+.sobreTproductos{
+    background-color: rgb(233, 233, 233);
+}
+.div__containerTproductosAddproduct--Tproductos{
+    display: flex;
+    flex-direction: column;
+    width: 90vw;
+    margin: 0 auto;
+}
+.h1__Tproductos--Tproductos{
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.5rem;
+    justify-content: flex-start;
+    text-align: left;
+}
+.button__agregarProducto--Tproduct{
+    width: 170px;
+    height: 40px;
+    font-weight: 500;
+    font-size: 16px;
+    background-color: #2A7AE4;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: .5rem;
+
+}
+.button__agregarProducto--Tproduct a{
+    text-decoration: none;
+}
+.div__containerTproductos-Vertodo--Tproductos {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 1rem;
+    align-items: center;
+}
+
+.h1__Tproductos--Tproductos {
+    font-family: 'Raleway', sans-serif;
+}
+
+.a__verTodo--Tproductos {
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+    color: #2A7AE4;
+    font-size: 1.1rem;
+}
+
+/* .div__divExteriorTproductos--Tproductos{
+
+} */
+.div__divContainerElementosTproductos--Tproductos {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+    
+    
+}
+
+.div__divContainerInternoElementosTproductos--Tproductos {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    margin-bottom: 20px;
+    border-radius: 20px 20px 20px 2px; 
+    background-color: rgb(255, 255, 255);
+}
+
+.img__Tproductos--Tproductos {
+    width: inherit;
+    border-radius: 19px;
+}
+
+.p__nombreProducto--Tproductos{
+    font-size: 1.1rem;
+    text-align: center;
+    margin: 10px;
+}
+.p__precioProducto--Tproductos{
+    margin: 1px;
+    text-align: center;
+    font-size: 1.1rem;
+    color: rgb(87, 87, 87);
+}
+.p__verProductoDetallado--Tproductos{
+    margin: 9px;
+    text-align:right ;
+    text-decoration: none;
+    font-size: 1.1rem;
+    font-family: 'Montserrat', sans-serif;
+    color: #2A7AE4;
+}
+.div__contenedorTotal--Tproductos{
+    display: flex;
+    flex-direction: row;
+    flex-wrap:wrap ;
+    justify-content: center;
+    gap: 0.4rem;;
+
+}

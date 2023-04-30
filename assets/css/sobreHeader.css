@@ -1,0 +1,50 @@
+html{
+    background-color: white;
+}
+.sobreHeader {
+    background-color: #f8f8f8;
+}
+.a__irIndex--Header{
+    text-decoration: none;
+}
+/* .div__containerHeader--Header {} */
+
+.div__elementosHeader-Header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 10px;
+    height: 70px;
+}
+
+.p__titulo--header {
+    display: flex;
+    align-items: center;
+    font-family: sans-serif;
+    font-weight: 500;
+}
+
+.img__titulo--Header {
+    width: 27.3px;
+}
+
+.span__aluraTitulo--Header {
+    color: #2A7AE4;
+}
+
+.span__geek-Header {
+    color: black;
+}
+
+.button__login--Header{
+    margin-left: 30%;
+    width: 140px;
+    height: 35px;
+    border-color: white;
+    border:none;
+    border-radius: 20px;
+    color: #2A7AE4;
+    background-color: rgb(231, 231, 231);
+    font-family: sans-serif;
+    font-weight: 600;
+}

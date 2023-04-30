@@ -1,0 +1,68 @@
+.sobreDiversos{
+    background-color: white;
+}
+.div__containerDiversos-Vertodo--Diversos {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 1rem;
+    align-items: center;
+}
+
+.h1__Diversos--Diversos {
+    font-family: 'Raleway', sans-serif;
+}
+
+.a__verTodo--Diversos {
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+    color: #2A7AE4;
+    font-size: 1.3rem;
+}
+
+/* .div__divExteriorDiversos--Diversos{
+
+} */
+.div__divContainerElementosDiversos--Diversos {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+    
+    
+}
+
+.div__divContainerInternoElementosDiversos--Diversos {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    margin-bottom: 20px;
+    border-radius: 20px 20px 20px 2px; 
+}
+
+.img__Diversos--Diversos {
+    width: inherit;
+    border-radius: 19px;
+}
+
+.p__nombreProducto--Diversos{
+    font-size: 1.1rem;
+    text-align: center;
+    margin: 10px;
+}
+.p__precioProducto--Diversos{
+    margin: 1px;
+    text-align: center;
+    font-size: 1.1rem;
+    color: rgb(87, 87, 87);
+}
+.p__verProductoDetallado--Diversos{
+    margin: 9px;
+    text-align:right ;
+    text-decoration: none;
+    font-size: 1rem;
+    font-family: 'Montserrat', sans-serif;
+    color: #2A7AE4;
+}

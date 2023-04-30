@@ -1,0 +1,43 @@
+.img__promocion-Promocion {
+    width: 100vw;
+    height: 200px;
+    position: relative;
+}
+
+/* .div_containerExterior--Promocion {
+  
+} */
+
+.div__containerInteriorElementos-Promocion {
+    font-family: sans-serif;
+    color: aliceblue;
+}
+
+.h2__mesPromocion--Promocion {
+    position: absolute;
+    top: -15%;
+    /* left: auto; */
+    /* right: auto; */
+    font-size: 2.6rem;
+}
+.p__productosDescuento--Promocion{
+    position: absolute;
+    top: 35%;
+    font-size: 20px;
+    font-weight: bold;
+    
+}
+.button__irPromocion--Promocion{
+    position: absolute;
+    bottom: 5%;
+    left: 3%;
+    border-radius: 20px;
+    height: 40px;
+    width: 140px;
+    background-color: rgb(255, 255, 177);
+    border-color:rgb(255, 251, 0) ;
+    border-style: none;
+    font-weight: 500;
+    font-family: 'Montserrat', sans-serif;
+    
+}

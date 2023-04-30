@@ -1,0 +1,63 @@
+ .sobreLogin{
+     height: 100vh;
+     background-color: white;
+} 
+.div__containerElementosLogin--Login {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.h2__IniciarSesión {
+    font-family: 'Raleway', sans-serif;
+    /* display: flex; */
+    font-size: 32px;
+    width: 80vw;
+    text-align: center;
+    margin: 30px auto;
+    
+}
+
+.input__login--Login {
+    width: 80vw;
+    height: 45px;
+    margin-top: 15px;
+    margin-bottom: 1.5rem;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+}
+.input__login--Login.correo{
+    border: solid;
+    border-radius: 5px;
+    border-width: 2px;
+    border-color: #2A7AE4;
+}
+.input__login--Login.correo::placeholder{
+    text-align: center;
+}
+.input__login--Login.correo:focus{
+    outline-color: #2ae4ac;
+    
+}
+.input__login--Login.contrasenha{
+    border-radius: 5px;
+    margin-bottom: 70px;
+    border: solid;
+    border-color: #06b8ff;
+    border-width: 2px;
+}
+.input__login--Login.contrasenha::placeholder{
+    text-align: center;
+}
+.input__login--Login.contrasenha:focus{
+    outline-color: #2ae4ac;
+}
+.button__entrar--Login{
+    width: 200px;
+    height: 45px;
+    font-family: 'Raleway', sans-serif;
+    background-color: #304c70;
+    border: none;
+    border-radius: 10px;
+    color: white;
+}

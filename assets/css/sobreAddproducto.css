@@ -1,0 +1,51 @@
+.sobreAddproducto{
+    background-color: white;
+}
+.div__contenedorH2--Addproducto{
+    width: 80vw;
+    margin: 1rem auto;
+}
+.h2__agregarProducto--Addproducto {
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 0;
+}
+
+.div__contenedorinputs {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 1rem;
+}
+
+.input__agregarProducto--Addproducto {
+    width: 80vw;
+    height: 60px;
+    border: solid;
+    border-color: rgb(0, 140, 255);
+    background-color: rgb(238, 238, 238);
+    margin-bottom: 1rem;
+    /* border-bottom: #E5E5E5; */
+    border-radius: 10px;
+    margin-bottom: 3rem;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* .label__seleccionaProducto--Addproducto{
+} */
+.input__agregarProducto--Addproducto:focus {
+    outline: none;
+}
+
+.input__agregarProducto--Addproducto::placeholder {
+    position: absolute;
+    text-align: center;
+    font-size: 14px;
+    color: rgb(0, 0, 0);
+}
+
+.input__agregarProducto--Addproducto.boton {
+    width: 50vw;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    background-color: rgb(0, 110, 255);
+}

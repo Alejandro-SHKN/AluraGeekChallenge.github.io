@@ -1,0 +1,35 @@
+/* .sobreMensajeEnviado{
+
+} */
+.div__contenedorSvg--sobreMensajeEnviado{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.img__mensajeEnviado--sobreMensajeEnviado{
+    width: 120px;
+}
+.div__contenedorH2--sobreMensajeEnviado{
+    display: flex;
+    font-size: 20px;
+    font-family: 'Raleway', sans-serif;
+    justify-content: center;
+}
+.button__volverInicio--sobreMensajeEnviado{
+    display: flex;
+    justify-content: center;
+}
+.a__button--sobreMensajeEnviado{
+   text-decoration: none;
+}
+.button__botonVolver{
+    width: 150px;
+    height: 40px;
+    border: none;
+    border-radius: 20px;
+    background-color: #2A7AE4;
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    font-size: 1rem;
+
+}

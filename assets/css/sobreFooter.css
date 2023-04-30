@@ -1,0 +1,79 @@
+.sobreFooter{
+    background: linear-gradient(to bottom, white, #d8d8d8);
+}
+.div__imagen-titulo{
+    display: flex;
+    justify-content: center;
+}
+.img__titulo--Footer{
+    width: 50px;
+}
+.span__aluraTitulo--Footer{
+    color: #2A7AE4;
+}
+.p__titulo--Footer{
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+    
+}
+.div__containerform{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.p__informacionFooter--Footer{
+    text-decoration: none;
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+    color: #0f75fc;
+    margin: 10px;
+}
+/* .div__hableConNosotros--Footer{
+
+} */
+/* .form__hableConNosotros--Footer{
+} */
+.h3__hableConNosotros--Footer{
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 20px;
+    font-size: 1.5rem;
+    font-family: 'Raleway', sans-serif;
+}
+.div__inputs{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    margin: 0 20px;
+}
+.input__nombre--footer{
+    height: 50px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    border: none;
+}
+.input__nombre--footer:focus{
+    outline: none;
+}
+.textarea__mensaje{
+    border-style: none;   
+    border-radius: 10px;
+    margin-bottom: 15px;
+    resize: none;
+}
+.textarea__mensaje:focus{
+    outline: none;
+}
+.button__EnviarFormulario--Footer{
+    width: 140px;
+    height: 40px;
+    border-style: none;
+    background-color: #2A7AE4;
+    color: white;
+    border-radius: 10px;
+    margin-bottom: 2rem;
+}

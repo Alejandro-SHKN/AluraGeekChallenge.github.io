@@ -1,0 +1,76 @@
+.sobreStarwars{
+    background-color: white;
+}
+.div__containerStarwars-Vertodo--Starwars {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 1rem;
+    align-items: center;
+}
+
+.h1__starwars--Starwars {
+    font-family: 'Raleway', sans-serif;
+}
+
+.a__verTodo--Starwars {
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+    color: #2A7AE4;
+    font-size: 1.3rem;
+}
+
+/* .div__divExteriorStarwars--Starwars{
+
+} */
+.div__divContainerElementosStarwars--Starwars {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+    
+}
+
+.div__divContainerInternoElementosStarwars--Starwars {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    margin-bottom: 20px;
+    border-radius: 20px 20px 20px 2px; 
+    /* background-color: rgb(255, 255, 255); */
+}
+
+.img__starwars--Starwars {
+    width: inherit;
+    border-radius: 19px;
+}
+
+.p__nombreProducto--Starwars{
+    font-size: 1.1rem;
+    text-align: center;
+    margin: 10px;
+}
+.p__precioProducto--Starwars{
+    margin: 1px;
+    text-align: center;
+    font-size: 1.1rem;
+    color: rgb(87, 87, 87);
+}
+.p__verProductoDetallado--Starwars{
+    margin: 9px;
+    text-align:center;
+    text-decoration: none;
+    font-size: 1rem;
+    font-family: 'Montserrat', sans-serif;
+    color: #2A7AE4;
+}
+.div__contenedorTotal--Tproductos{
+    display: flex;
+    flex-direction: row;
+    flex-wrap:wrap ;
+    justify-content: center;
+    gap: 0.4rem;;
+
+}
